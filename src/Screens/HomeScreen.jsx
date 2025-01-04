@@ -14,8 +14,6 @@ export const HomeScreen = () => {
   useEffect(() => {
     fetchRecipes();
   }, []);
-
-  
   return (
     <div className="mainContainer">
       {recipes.map((data) => {
